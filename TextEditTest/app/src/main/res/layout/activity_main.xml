@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/test_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textColor="#123456"
+        android:text="Hello World!" />
+    <Button
+        android:layout_width="123dp"
+        android:layout_height="75dp"
+        android:layout_gravity= "center"
+        android:text="这是一个按键"
+        android:id="@+id/button"
+        android:textAllCaps="false"
+        />
+    <EditText
+        android:id="@+id/edit_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Type something please"
+        android:maxLines="200"/>
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="123dp"
+        android:layout_height="75dp"
+        android:src="@drawable/logo"
+        />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"
+        />
+</LinearLayout>
